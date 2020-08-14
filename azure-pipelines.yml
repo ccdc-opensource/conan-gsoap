@@ -9,7 +9,7 @@ extends:
   template: third-party-library-all-platforms-from-conan-center.yml@templates
   parameters:
     package: gsoap
-    package_version: 2.8.103
+    package_version: 2.8.105
     source_repository: public-conan-center
     destination_repository: ccdc-3rdparty-conan
     build_types:
