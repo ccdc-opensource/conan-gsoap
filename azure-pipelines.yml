@@ -6,11 +6,10 @@ resources:
       ref: refs/heads/development
 
 extends:
-  template: third-party-library-all-platforms-from-conan-center.yml@templates
+  template: third-party-library-all-platforms-from-local-recipe.yml@templates
   parameters:
     package: gsoap
-    package_version: 2.8.105
-    source_repository: public-conan-center
+    package_version: 2.8.106
     destination_repository: ccdc-3rdparty-conan
     build_types:
       - Release
