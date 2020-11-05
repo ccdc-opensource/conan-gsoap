@@ -18,7 +18,7 @@ set_target_properties(gsoap PROPERTIES
     PDB_OUTPUT_DIRECTORY bin
     PUBLIC_HEADER ${GSOAP_PATH}/gsoap/stdsoap2.h
     LINKER_LANGUAGE C
-    CMAKE_POSITION_INDEPENDENT_CODE ON
+    POSITION_INDEPENDENT_CODE True
     )
 install(TARGETS gsoap
             RUNTIME DESTINATION bin
@@ -40,7 +40,7 @@ set_target_properties(gsoap++ PROPERTIES
     PDB_OUTPUT_DIRECTORY bin
     PUBLIC_HEADER ${GSOAP_PATH}/gsoap/stdsoap2.h
     LINKER_LANGUAGE CXX
-    CMAKE_POSITION_INDEPENDENT_CODE ON
+    POSITION_INDEPENDENT_CODE True
     )
 install(TARGETS gsoap++
             RUNTIME DESTINATION bin
