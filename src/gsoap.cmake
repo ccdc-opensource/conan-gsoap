@@ -40,6 +40,7 @@ set_target_properties(gsoap++ PROPERTIES
     PDB_OUTPUT_DIRECTORY bin
     PUBLIC_HEADER ${GSOAP_PATH}/gsoap/stdsoap2.h
     LINKER_LANGUAGE CXX
+    CMAKE_POSITION_INDEPENDENT_CODE ON
     )
 install(TARGETS gsoap++
             RUNTIME DESTINATION bin
