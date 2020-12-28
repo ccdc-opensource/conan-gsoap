@@ -11,3 +11,6 @@ sources:
   "2.8.106":
     sha256: "4e74838baf5437e95ae17aa3efb48bd0621f483bff4424f6255fcf327ff80765"
     url: "https://sourceforge.net/projects/gsoap2/files/gsoap-2.8/gsoap_2.8.106.zip/download"
+  "2.8.109":
+    sha256: "27de421db6f8abfc443f2e1d5ccdcbd7e6373095b2c72df2b17f50a9c5f80d14"
+    url: "https://sourceforge.net/projects/gsoap2/files/gsoap-2.8/gsoap_2.8.109.zip/download"
