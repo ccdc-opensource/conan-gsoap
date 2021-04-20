@@ -41,7 +41,10 @@ class ConanFileDefault(ConanFile):
         # Rename to "source_subfolder" is a convention to simplify later steps
         extracted_dir = "gsoap-" + self.version[:self.version.rindex('.')]
         os.rename(extracted_dir, self._source_subfolder)
-        for gsoapfile in ["gsoap/stdsoap2.cpp", "gsoap/stdsoap2.c"]:
+        for gsoapfile in [
+                f"{self._source_subfolder}/gsoap/stdsoap2.cpp",
+                f"{self._source_subfolder}/gsoap/stdsoap2.c"
+            ]:
             tools.replace_in_file(
                 gsoapfile,
                 "if !defined(_GNU_SOURCE) || (~_GNU_SOURCE+1 && ((!defined(_POSIX_C_SOURCE)",
