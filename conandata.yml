@@ -17,3 +17,6 @@ sources:
   "2.8.113":
     sha256: "e73782b618303cf55ea6a45751b75ba96797a7a12967ed9d02e6d5761977e73a"
     url: "https://sourceforge.net/projects/gsoap2/files/gsoap_2.8.113.zip/download"
+  "2.8.132":
+    sha256: "d6eb5d0d2c31532746f4dc9fa1ce95d4553414e918059eac23cf081d88c2aeee"
+    url: "https://sourceforge.net/projects/gsoap2/files/gsoap_2.8.132.zip/download"

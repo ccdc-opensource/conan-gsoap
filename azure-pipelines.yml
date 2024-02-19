@@ -1,15 +1,16 @@
 resources:
   repositories:
     - repository: templates
-      type: git
-      name: ccdc-3rd-party/conan-azure-devops
+      type: github
+      endpoint: github
+      name: ccdc-opensource/conan-azure-devops
       ref: refs/heads/development
 
 extends:
   template: third-party-library-all-platforms-from-local-recipe.yml@templates
   parameters:
     package: gsoap
-    package_version: 2.8.113
+    package_version: 2.8.132
     destination_repository: ccdc-3rdparty-conan
     build_types:
       - Release
